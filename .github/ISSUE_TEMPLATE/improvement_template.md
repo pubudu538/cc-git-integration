@@ -1,26 +1,26 @@
-name: "💡 Feature Request"
-description: Suggest new functionality and features for the product.
-labels: ["Priority/Normal", "Type/New Feature"]
+name: "🚀 Improvement Request"
+description: Suggest an improvement to the product.
+labels: ["Priority/Normal", "Type/Improvement"]
 body:
   - type: textarea
     id: problem
     attributes:
       label: Problem
-      description: Describe why you think the product needs this feature.
+      description: Describe why you think the product needs this improvement.
     validations:
       required: true
   - type: textarea
     id: solution
     attributes:
       label: Solution
-      description: Describe the feature you suggest.
+      description: Describe the improvement you suggest.
     validations:
       required: true
   - type: textarea
     id: implementation
     attributes:
       label: Implementation
-      description: Suggest an approach or a design for the feature.
+      description: Suggest an approach or design for this improvement.
     validations:
       required: false
   - type: textarea
